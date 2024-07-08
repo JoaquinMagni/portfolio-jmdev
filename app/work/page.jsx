@@ -22,33 +22,53 @@ import WorkSliderBtns from "../../components/WorkSliderBtns"
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "FullStack",
     title: "project 1",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur enim fugit eligendi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" },],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    description: "Rent a Car es un web de alquiler de automóviles. Cuenta con un sistema de filtrado, permitiendo a los usuarios filtrar resultados por marca, precio o características. Logrando una experiencia de usuario intuitiva, dinámica y placentera.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }, { name: "API Cars" }],
+    image: "/assets/work/proyecto1.png",
+    live: "https://rentaldrive.vercel.app/",
+    github: "https://github.com/JoaquinMagni/car_showcase",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "FrontEnd",
     title: "project 2",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur enim fugit eligendi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" },],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    description: "En BrainWave IA he implementado un diseño responsivo, asegurando una experiencia de usuario coherente en todos los dispositivos.",
+    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" }],
+    image: "/assets/work/proyecto2.png",
+    live: "https://brainwave2024.vercel.app/",
+    github: "https://github.com/JoaquinMagni/brainwave",
   },
   {
     num: "03",
-    category: "fullstack",
+    category: "FrontEnd",
     title: "project 3",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequatur enim fugit eligendi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" }, { name: "Mongo DB" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    description: "Añadí interactividad con JavaScript, permitiendo a los clientes consultar precios de manera dinámica. Además, integré un formulario de contacto para facilitar la interacción y el compromiso con la comunidad.",
+    stack: [{ name: "Vite" }, { name: "CSS 3" }, { name: "Javascript" }],
+    image: "/assets/work/proyecto3.png",
+    live: "https://fitgim.vercel.app/",
+    github: "https://github.com/JoaquinMagni/FittGim",
+  },
+  {
+    num: "04",
+    category: "FullStack",
+    title: "project 4",
+    description: "Consumiendo la PokeAPI, elaboré esta sencilla web, donde se pueden explorar todos los Pokemon. Incorporé un filtro en el cual los usuarios pueden buscar Pokémon por nombre y explorar sus características en tarjetas interactivas.",
+    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "Javascript" }, { name: "API Pokemon" }],
+    image: "/assets/work/proyecto4.jpg",
+    live: "https://therealpokedex.vercel.app/",
+    github: "https://github.com/JoaquinMagni/pokedex",
+  },
+  {
+    num: "03",
+    category: "FrontEnd",
+    title: "project 3",
+    description: "En este Planificador de Gastos, implementé un gráfico circular para visualizar la distribución del presupuesto y una funcionalidad para agrupar gastos e ingresos por categorías.",
+    stack: [{ name: "React Js" }, { name: "CSS 3" }, { name: "Javascript" }, { name: "Node Js" }],
+    image: "/assets/work/proyecto5.png",
+    live: "https://presupuesto-de-gasto.netlify.app/",
+    github: "https://github.com/JoaquinMagni/control-gastos",
   },
 ]
 
@@ -81,7 +101,7 @@ const Work = () => {
               </div>
               {/* Project Category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                Proyecto {project.category}
               </h2>
               {/* Project Description */}
               <p className="text-white/60">{project.description}</p>

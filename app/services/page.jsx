@@ -8,25 +8,25 @@ const services = [
     num: "01",
     title: "Desarrollo Web",
     description: "Como Desarrollador FullStack construyo, gestiono y mantengo sitios y aplicaciones asegurando calidad, funcionalidad y seguridad.",
-    href: ""
+    href: "/work"
   },
   {
     num: "02",
     title: "Diseño UI/UX",
     description: "Creo prototipos y diseños finales para productos digitales, asegurando una interfaz de usuario amigable para quien visite la página.",
-    href: ""
+    href: "/work"
   },
   {
     num: "03",
     title: "Diseño de Logo",
     description: "Fusiono formas, colores, tipografías y conceptos para crear elementos visuales impactantes que transmitan la esencia de tu marca.",
-    href: ""
+    href: "/work"
   },
   {
     num: "04",
     title: "SEO",
     description: "Mi trabajo implica optimizar sitios web para mejorar su visibilidad en los motores de búsqueda, utilizando palabras clave, optimización de contenido y creación de enlaces.",
-    href: ""
+    href: "/work"
   },
 ]
 

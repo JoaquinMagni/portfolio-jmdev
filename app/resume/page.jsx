@@ -10,7 +10,7 @@ import {
   FaNode
 } from "react-icons/fa"
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si"
+import { SiTailwindcss, SiNextdotjs, SiMysql, SiMongodb, SiPostman, SiExpress } from "react-icons/si"
 
 // About Data
 const about = {
@@ -52,7 +52,7 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "Mi Experiencia",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, praesentium optio temporibus sed et perferendis illum quisquam.",
+  description: "Soy un programador Full Stack con 3 años de experiencia, especializado en el desarrollo web utilizando tecnologías de vanguardia para Frontend y Backend. Me apasiona crear soluciones tecnológicas integrales y siempre busco mejorar la calidad de mi trabajo a través del aprendizaje continuo y la adaptación a nuevas herramientas y metodologías.",
   items: [
     {
       company: "Tech Solutions Inc.",
@@ -75,7 +75,7 @@ const experience = {
 const education = {
   icon: "/assets/resume/badge.svg",
   title: "Mi Educación",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, praesentium optio temporibus sed et perferendis illum quisquam.",
+  description: "Mis estudios me han proporcionado una sólida base en desarrollo web y me han permitido especializarme en tecnologías clave para el desarrollo frontend. Gracias a esta formación, he logrado convertirme en un programador Full Stack altamente competente, capaz de crear soluciones tecnológicas integrales y de alta calidad.",
   items: [
     {
       institution: "Curso Online Udemy",
@@ -84,7 +84,7 @@ const education = {
     },
     {
       institution: "Curso Online Udemy",
-      degree: "Desarrollador Fron-End Certificado",
+      degree: "Desarrollador Front End Certificado",
       duration: "2022"
     },
     {
@@ -102,7 +102,7 @@ const education = {
 
 const skills = {
   title: "Mis Habilidades",
-  description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, aperiam totam odit iste sed tempora debitis facilis.",
+  description: "Tengo un gran dominio de diversas herramientas y tecnologías clave en el desarrollo web. Utilizo HTML5 y CSS3 para estructurar y estilizar páginas web, y JavaScript para añadir interactividad. Trabajo con React.js y Next.js para construir interfaces de usuario dinámicas y eficientes. Tailwind CSS es mi elección para el diseño de estilos modernos y responsivos. En el backend, utilizo Node.js y Express Validator para crear servidores robustos y seguros. Además, manejo bases de datos como MySQL y MongoDB, y utilizo Postman para probar y documentar APIs. Estas habilidades me permiten desarrollar soluciones web completas y de alta calidad.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -133,8 +133,24 @@ const skills = {
       name: "node.js"
     },
     {
-      icon: <FaFigma />,
-      name: "figma"
+      icon: <FaNode />,
+      name: "node"
+    },
+    {
+      icon: <SiMysql />,
+      name: "MySQL"
+    },
+    {
+      icon: <SiMongodb />,
+      name: "MongoDB"
+    },
+    {
+      icon: <SiPostman />,
+      name: "Postman"
+    },
+    {
+      icon: <SiExpress />,
+      name: "Express Validator"
     },
   ]
 };
@@ -165,7 +181,7 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" }
       }}
-      className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+      className="min-h-[80vh] flex items-center justify-center py-12 xl:py-2"
     >
       <div className="container mx-auto">
         <Tabs

@@ -54,6 +54,8 @@ const Contact = () => {
         text: "Su mensaje se ha enviado correctamente.",
         icon: "success"
       });
+    // Vaciar el formulario
+    event.target.reset();
     }
   };
 
@@ -94,11 +96,8 @@ const Contact = () => {
                 Enviar Mensaje
               </Button>
             </form>
-
-            <script>
-
-            </script>
           </div>
+
           {/* Info */}
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
             <ul className="flex flex-col gap-10">

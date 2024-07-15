@@ -18,7 +18,8 @@ const Home = () => {
               Hola, soy <br /> <span className="text-accent">Joaquín Magni</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Me destaco en la creación de experiencias digitales elegantes y domino varios lenguajes y tecnologías de programación.
+              Me destaco en la creación de experiencias digitales elegantes. <br />
+              Domino diferentes lenguajes y tecnologías de programación.
             </p>
             {/* button and socials media */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

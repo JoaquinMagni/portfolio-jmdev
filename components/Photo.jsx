@@ -29,6 +29,7 @@ const Photo = () => {
             fill
             alt=""
             className="object-contain"
+            style={{ transform: 'scale(0.85)' }}
           />
         </motion.div>
 
